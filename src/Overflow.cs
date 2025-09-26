@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.Overflows;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// Typed values for the CSS overflow property in .NET enumeration form.
