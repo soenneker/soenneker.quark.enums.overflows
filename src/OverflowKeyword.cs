@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// Typed values for the CSS overflow property in .NET enumeration form.
 /// </summary>
 [Intellenum<string>]
-public sealed partial class OverflowKeywordKeyword
+public sealed partial class OverflowKeyword
 {
     public static readonly OverflowKeyword Auto = new("auto");
     public static readonly OverflowKeyword Hidden = new("hidden");
