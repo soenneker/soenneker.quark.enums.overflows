@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.Overflows.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.Overflows\Soenneker.Quark.Enums.Overflows.csproj" />
     </ItemGroup>
 
     <ItemGroup>
