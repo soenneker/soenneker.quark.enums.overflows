@@ -11,6 +11,7 @@ public sealed partial class OverflowKeyword
 {
     public static readonly OverflowKeyword Auto = new("auto");
     public static readonly OverflowKeyword Hidden = new("hidden");
+    public static readonly OverflowKeyword Clip = new("clip");
     public static readonly OverflowKeyword Visible = new("visible");
     public static readonly OverflowKeyword Scroll = new("scroll");
 }
