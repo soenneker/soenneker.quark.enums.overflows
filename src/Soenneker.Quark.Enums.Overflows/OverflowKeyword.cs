@@ -9,9 +9,24 @@ namespace Soenneker.Quark;
 [IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class OverflowKeyword
 {
+    /// <summary>
+    /// The auto.
+    /// </summary>
     public static readonly OverflowKeyword Auto = new("auto");
+    /// <summary>
+    /// The hidden.
+    /// </summary>
     public static readonly OverflowKeyword Hidden = new("hidden");
+    /// <summary>
+    /// The clip.
+    /// </summary>
     public static readonly OverflowKeyword Clip = new("clip");
+    /// <summary>
+    /// The visible.
+    /// </summary>
     public static readonly OverflowKeyword Visible = new("visible");
+    /// <summary>
+    /// The scroll.
+    /// </summary>
     public static readonly OverflowKeyword Scroll = new("scroll");
 }
