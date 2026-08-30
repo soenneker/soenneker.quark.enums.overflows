@@ -3,30 +3,30 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// Typed values for the CSS overflow property in .NET enumeration form.
+/// Represents a CSS overflow keyword.
 /// </summary>
 [EnumValue<string>]
 [IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class OverflowKeyword
 {
     /// <summary>
-    /// The auto.
+    /// Adds scrolling when the content requires it.
     /// </summary>
     public static readonly OverflowKeyword Auto = new("auto");
     /// <summary>
-    /// The hidden.
+    /// Clips overflow while retaining a scroll container.
     /// </summary>
     public static readonly OverflowKeyword Hidden = new("hidden");
     /// <summary>
-    /// The clip.
+    /// Clips overflow without creating a scroll container.
     /// </summary>
     public static readonly OverflowKeyword Clip = new("clip");
     /// <summary>
-    /// The visible.
+    /// Allows content to paint outside the box.
     /// </summary>
     public static readonly OverflowKeyword Visible = new("visible");
     /// <summary>
-    /// The scroll.
+    /// Creates a scroll container.
     /// </summary>
     public static readonly OverflowKeyword Scroll = new("scroll");
 }
